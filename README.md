@@ -1,2 +1,4 @@
 # my-lib
-something i want to store about js or css functions
+-init Css file
+-Simple functions
+-Simple Scrollbar (it don't support mobile)
