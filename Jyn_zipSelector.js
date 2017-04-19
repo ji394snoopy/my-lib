@@ -24,6 +24,9 @@ var zipSelector = function(options) {
     options.el.forEach(function(val, index, arr) {
         elLevs.push($(val));
     });
+    options.placeholder.forEach(function(val, index, arr) {
+        elLevs[index].html('<option value="">' + val + '</option>');
+    });
     $.ajax({
         url: options.url,
         dataType: 'json'
